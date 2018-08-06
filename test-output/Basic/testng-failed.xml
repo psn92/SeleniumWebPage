@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Basic]">
+  <test name="all tests(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="TestCases.TopToolbar_Content">
+        <methods>
+          <include name="VisibilityAndTypeOfTopicDownload"/>
+          <include name="ByTypingWordInSearchUserCanFindExpectingItem"/>
+          <include name="VisibilityAndTypeOfTopicProject"/>
+          <include name="VisibilityAndTypeOfTopicDocumentation"/>
+          <include name="VisibilityAndTypeOfTopicSupport"/>
+          <include name="openPage"/>
+          <include name="closePage"/>
+          <include name="VisibilityAndTypeOfTopicAbout"/>
+        </methods>
+      </class> <!-- TestCases.TopToolbar_Content -->
+    </classes>
+  </test> <!-- all tests(failed) -->
+</suite> <!-- Failed suite [Basic] -->

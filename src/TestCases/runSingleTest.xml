@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Basic" parallel="tests" thread-count="3" >
+	<test name="all tests" >
+		<parameter name="browsername" value="chrome" />
+		<classes>
+			<class name="TestCases.TopToolbar_Content">
+				<methods>
+					<include name="VisibilityAndTypeOfTopicProject" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

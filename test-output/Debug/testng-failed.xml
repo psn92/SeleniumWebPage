@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Debug]">
+  <test name="single tests(failed)">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="TestCases.TopToolbar_Content">
+        <methods>
+          <include name="openPage"/>
+          <include name="closeDriver"/>
+          <include name="LogoVisibility"/>
+        </methods>
+      </class> <!-- TestCases.TopToolbar_Content -->
+    </classes>
+  </test> <!-- single tests(failed) -->
+</suite> <!-- Failed suite [Debug] -->
